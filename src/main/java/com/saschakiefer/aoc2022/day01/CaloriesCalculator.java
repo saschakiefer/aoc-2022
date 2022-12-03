@@ -9,8 +9,8 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 public class CaloriesCalculator {
 	public int getMaxCaloriesPerElf(String statistics) {
-		Stream<IntStream> caloriesPerElf = Arrays.stream(statistics.split("\n\n")).map(s -> Arrays.stream(s.split("\n")).mapToInt(cal -> Integer.parseInt(cal)));
-		Stream<Integer> caloriesPerElfAccumulated = caloriesPerElf.map(s -> s.sum());
+		Stream<IntStream> caloriesPerElf = Arrays.stream(statistics.split("\n\n")).map(s -> Arrays.stream(s.split("\n")).mapToInt(Integer::parseInt));
+		Stream<Integer> caloriesPerElfAccumulated = caloriesPerElf.map(IntStream::sum);
 
 		return caloriesPerElfAccumulated.max(Integer::compare).orElse(0);
 	}

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ac1538-cddf-4e11-937c-816e7d20bbb6" name="Changes" comment="Add file reader + day1 base class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day01/CaloriesCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day01/CaloriesCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/util/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/util/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saschakiefer/aoc2022/day01/CaloriesCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saschakiefer/aoc2022/day01/CaloriesCalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="49ac1538-cddf-4e11-937c-816e7d20bbb6" name="Changes" comment="Solution Day1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +103,7 @@
       <updated>1669924242738</updated>
       <workItem from="1669924243790" duration="30000" />
       <workItem from="1669924283105" duration="5545000" />
-      <workItem from="1670056677537" duration="6438000" />
+      <workItem from="1670056677537" duration="6854000" />
     </task>
     <task id="LOCAL-00001" summary="Add file reader + day1 base class">
       <created>1670058285741</created>
@@ -117,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670058285741</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solution Day1">
+      <created>1670076413887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670076413887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,17 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add file reader + day1 base class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add file reader + day1 base class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day01/CaloriesCalculator.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Solution Day1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution Day1" />
   </component>
 </project>
