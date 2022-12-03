@@ -13,7 +13,7 @@ class CaloriesCalculatorTest {
 
 	@Test
 	void getMaxCaloriesPerElf() {
-		Optional<String> input = FileReader.readFile("day01/input.txt");
+		Optional<String> input = FileReader.readFileToString("day01/input.txt");
 		log.info("Max calories carried by an elf: {}", new CaloriesCalculator().getMaxCaloriesPerElf(input.orElse("")));
 	}
 }
