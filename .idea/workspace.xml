@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ac1538-cddf-4e11-937c-816e7d20bbb6" name="Changes" comment="Solution Day1" />
+    <list default="true" id="49ac1538-cddf-4e11-937c-816e7d20bbb6" name="Changes" comment="Update ignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -20,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,22 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.saschakiefer.aoc2022.day02" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test" />
@@ -68,10 +77,11 @@
       <recent name="com.saschakiefer.aoc2022.util" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.saschakiefer.aoc2022.day02" />
       <recent name="com.saschakiefer.aoc2022.day01" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GameTest">
     <configuration name="CaloriesCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2022" />
       <extension name="coverage">
@@ -87,8 +97,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.GameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.GameTest" />
+      <option name="METHOD_NAME" value="play" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.play_withDemoDataReturnsCorrectResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.GameTest" />
+      <option name="METHOD_NAME" value="play_withDemoDataReturnsCorrectResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuleEngineTest.calculateScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.RuleEngineTest" />
+      <option name="METHOD_NAME" value="calculateScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.RuleEngineTest.calculateScore" />
+        <item itemvalue="JUnit.GameTest.play_withDemoDataReturnsCorrectResult" />
+        <item itemvalue="JUnit.GameTest.play" />
         <item itemvalue="JUnit.CaloriesCalculatorTest" />
       </list>
     </recent_temporary>
@@ -103,7 +180,8 @@
       <updated>1669924242738</updated>
       <workItem from="1669924243790" duration="30000" />
       <workItem from="1669924283105" duration="5545000" />
-      <workItem from="1670056677537" duration="6854000" />
+      <workItem from="1670056677537" duration="7859000" />
+      <workItem from="1670140153076" duration="7258000" />
     </task>
     <task id="LOCAL-00001" summary="Add file reader + day1 base class">
       <created>1670058285741</created>
@@ -119,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670076413887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Day 1">
+      <created>1670076737116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670076737116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update ignore file">
+      <created>1670076817951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670076817951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add file reader + day1 base class" />
     <MESSAGE value="Solution Day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution Day1" />
+    <MESSAGE value="Update Day 1" />
+    <MESSAGE value="Update ignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ignore file" />
   </component>
 </project>
