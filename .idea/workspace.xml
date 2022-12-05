@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ac1538-cddf-4e11-937c-816e7d20bbb6" name="Changes" comment="Update ignore file">
+    <list default="true" id="49ac1538-cddf-4e11-937c-816e7d20bbb6" name="Changes" comment="Day3 - Part 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day03/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day03/Luggage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day03/Rucksack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day03/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/saschakiefer/aoc2022/day03/LuggageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/saschakiefer/aoc2022/day03/RucksackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day02/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day02/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day02/RoundConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saschakiefer/aoc2022/day02/RoundConverterPart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/saschakiefer/aoc2022/day02/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/saschakiefer/aoc2022/day02/GameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,21 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.saschakiefer.aoc2022.day02" />
@@ -84,6 +87,7 @@
       <recent name="com.saschakiefer.aoc2022.util" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.saschakiefer.aoc2022.day03" />
       <recent name="com.saschakiefer.aoc2022.day02" />
       <recent name="com.saschakiefer.aoc2022.day01" />
     </key>
@@ -91,22 +95,7 @@
       <recent name="com.saschakiefer.aoc2022.day02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
-    <configuration name="CaloriesCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc-2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saschakiefer.aoc2022.day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day01" />
-      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day01.CaloriesCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RucksackTest">
     <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2022" />
       <extension name="coverage">
@@ -122,49 +111,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LuggageTest.getPrioritySum_returnsCorrectSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
-      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.GameTest" />
-      <option name="METHOD_NAME" value="play" />
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day03" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day03.LuggageTest" />
+      <option name="METHOD_NAME" value="getPrioritySum_returnsCorrectSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.play_withDemoDataReturnsCorrectResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LuggageTest.getPrioritySum_testData_returnsCorrectSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
-      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.GameTest" />
-      <option name="METHOD_NAME" value="play_withDemoDataReturnsCorrectResult" />
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day03" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day03.LuggageTest" />
+      <option name="METHOD_NAME" value="getPrioritySum_testData_returnsCorrectSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RuleEngineTest.calculateScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RucksackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc-2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saschakiefer.aoc2022.day02.*" />
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day02" />
-      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day02.RuleEngineTest" />
-      <option name="METHOD_NAME" value="calculateScore" />
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day03" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day03.RucksackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RucksackTest.getDuplicateValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc-2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saschakiefer.aoc2022.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saschakiefer.aoc2022.day03" />
+      <option name="MAIN_CLASS_NAME" value="com.saschakiefer.aoc2022.day03.RucksackTest" />
+      <option name="METHOD_NAME" value="getDuplicateValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RucksackTest" />
+        <item itemvalue="JUnit.LuggageTest.getPrioritySum_returnsCorrectSum" />
+        <item itemvalue="JUnit.LuggageTest.getPrioritySum_testData_returnsCorrectSum" />
+        <item itemvalue="JUnit.RucksackTest.getDuplicateValue" />
         <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.RuleEngineTest.calculateScore" />
-        <item itemvalue="JUnit.GameTest.play_withDemoDataReturnsCorrectResult" />
-        <item itemvalue="JUnit.GameTest.play" />
-        <item itemvalue="JUnit.CaloriesCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,8 @@
       <workItem from="1670056677537" duration="7859000" />
       <workItem from="1670140153076" duration="7258000" />
       <workItem from="1670159095579" duration="7000" />
-      <workItem from="1670159111688" duration="1067000" />
+      <workItem from="1670159111688" duration="1338000" />
+      <workItem from="1670223711181" duration="5730000" />
     </task>
     <task id="LOCAL-00001" summary="Add file reader + day1 base class">
       <created>1670058285741</created>
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670076817951</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Da2 - Part2">
+      <created>1670160445602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670160445602</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +246,12 @@
     <MESSAGE value="Solution Day1" />
     <MESSAGE value="Update Day 1" />
     <MESSAGE value="Update ignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ignore file" />
+    <MESSAGE value="Da2 - Part2" />
+    <MESSAGE value="Day3 - Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day3 - Part 1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
